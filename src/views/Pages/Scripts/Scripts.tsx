@@ -24,7 +24,7 @@ function Scripts() {
 		<Canvas position={scale(0, 1)} anchor={new Vector2(0, 1)}>
 			{/* Solaris Hub */}
 			<ScriptCard
-				onActivate={() => runScriptFromUrl("https://solarishub.dev/script.lua", "Solaris")}
+				onActivate={() => runScriptFromUrl("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua", "Fates Admin")}
 				index={4}
 				backgroundImage="rbxassetid://8992292705"
 				backgroundImageSize={new Vector2(1023, 682)}
@@ -42,7 +42,7 @@ function Scripts() {
 				}
 				position={scale(0, 0)}
 			>
-				<Content header="Solaris" body="A collection\nof your favorite\nscripts." footer="solarishub.dev" />
+				<Content header="Fates Admin" body="A collection\nof your favorite\nadmin." footer="fatesadmin.xyz" />
 			</ScriptCard>
 
 			{/* V.G Hub */}
